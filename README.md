@@ -1,5 +1,8 @@
 # Initializer for StatNLP service in .Net
 
+## Releases 
+- [Versions](https://github.com/sutd-statnlp/initializer-statnlp-service-dotnet/releases)
+
 ## Installation
 
 - Install .NET SDK
