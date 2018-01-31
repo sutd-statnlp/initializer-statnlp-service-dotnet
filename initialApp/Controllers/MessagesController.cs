@@ -20,9 +20,9 @@ namespace initialApp.Controllers
         }
         // GET: api/messages
         [HttpGet]
-        public IEnumerable<Message> Get()
+        public IActionResult GetMessages()
         {
-            return _messageService.GetMessages();
+            return Ok(_messageService.GetMessages());
         }
 
     }
